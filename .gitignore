@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+data/
+*.csv
+*.xlsx
+
+# IDE specific
+.idea/
+.vscode/
+.DS_Store
