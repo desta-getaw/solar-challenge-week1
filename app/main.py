@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from . import utils
 import utils
 import sys
 from pathlib import Path
