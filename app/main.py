@@ -5,14 +5,14 @@ import sys
 from pathlib import Path
 
 import seaborn as sns
-st.title("10 Acadamy AIM2 Data Visualization ")
+st.title("10 Acadamy Data Visualization ")
 st.markdown("This dashboard allows you to visualize data with various interactive features for **Solar Radiation Measurement** Data at MoonLight Energy Solutions")
 
 # List of available datasets
 datasets = {
     "Benin (Malanville)": "C:/Users/getde/Desktop/solar-challenge-week1/data/benin-malanville.csv",
     "Sierra Leone (Bumbuna)": "C:/Users/getde/Desktop/solar-challenge-week1/data/benin-malanville.csv",
-    "Togo (Dapaong QC)": "../data/togo-dapaong_qc.csv"
+    "Togo (Dapaong QC)":  "C:/Users/getde/Desktop/solar-challenge-week1/data/benin-malanville.csv",
 }
 
 st.sidebar.header("Dashboard By Desta Getaw")
